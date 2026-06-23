@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#080b19" />
+  <meta name="description" content="Part IV — Two Years of Us. A private anniversary story for Lipi." />
+  <title>Part IV — Two Years of Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="prelude-open">
+  <!-- Release gate: shown until 24 June 2026, 12:00 AM IST -->
+  <section class="release-gate" id="waitGate" hidden aria-live="polite" aria-label="Anniversary website release countdown">
+    <div class="release-stars" aria-hidden="true"></div>
+    <div class="release-aura" aria-hidden="true"></div>
+    <div class="release-shell">
+      <p class="release-kicker"><span>✦</span> a little surprise is waiting <span>✦</span></p>
+      <div class="release-video-wrap">
+        <video class="release-video" autoplay muted loop playsinline preload="auto" aria-label="Mr Bean waiting video">
+          <source src="https://res.cloudinary.com/dxrqlmgcz/video/upload/v1782229547/mr-bean-mrbean_alyra8.mp4" type="video/mp4" />
+          Your browser does not support the waiting video.
+        </video>
+      </div>
+      <h1>Not yet, <i>my love.</i></h1>
+      <p class="release-message">The final chapter opens exactly at <strong>12 AM</strong>. ✦</p>
+      <div class="release-countdown" role="timer" aria-label="Countdown to 24 June 2026 at 12 AM India time">
+        <article><b id="releaseDays">00</b><span>Days</span></article>
+        <article><b id="releaseHours">00</b><span>Hours</span></article>
+        <article><b id="releaseMinutes">00</b><span>Minutes</span></article>
+        <article><b id="releaseSeconds">00</b><span>Seconds</span></article>
+      </div>
+      <p class="release-note" id="releaseNote">Counting down to our little midnight surprise.</p>
+    </div>
+  </section>
+
+  <div id="anniversaryApp" class="anniversary-app">
+  <div class="grain" aria-hidden="true"></div>
+  <div class="heart-field" aria-hidden="true"><span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span></div>
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <audio id="bgMusic" loop preload="metadata">
+    <source src="https://res.cloudinary.com/dxrqlmgcz/video/upload/v1782212576/Tum_Hi_Ho_Aashiqui_2_Full_Song_With_Lyrics_Aditya_Roy_Kapur_Shraddha_Kapoor_k97x0i.mp3" type="audio/mpeg" />
+  </audio>
+
+  <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false" aria-label="Play background music">
+    <span aria-hidden="true">◌</span><b>Music</b>
+  </button>
+
+  <nav class="chapter-nav" aria-label="Anniversary chapter">
+    <span>PART IV</span><i></i><span>24 · 06 · 2026</span>
+  </nav>
+
+  <!-- Intro: typed promises + infinity collision -->
+  <section class="prelude" id="prelude" aria-label="A two year anniversary opening">
+    <div class="prelude-stars" aria-hidden="true"></div>
+    <div class="prelude-aurora" aria-hidden="true"></div>
+
+    <div class="prelude-copy" id="preludeCopy">
+      <p class="prelude-kicker"><span>✦</span> Happy two years, Lipi <span>✦</span></p>
+      <div class="typewriter-stage" aria-live="polite" aria-atomic="true">
+        <p id="typewriterLine"></p><span class="type-caret" aria-hidden="true"></span>
+      </div>
+      <p class="prelude-whisper">A little journey back to every way we found each other.</p>
+    </div>
+
+    <div class="infinity-stage" id="infinityStage" aria-hidden="true">
+      <p class="infinity-caption">Every almost, every wait, every return — leading here.</p>
+      <div class="arcane-ring" aria-hidden="true">
+        <span class="ring-orbit ring-orbit-a"></span>
+        <span class="ring-orbit ring-orbit-b"></span>
+        <span class="ring-orbit ring-orbit-c"></span>
+        <span class="ring-sparks"></span>
+      </div>
+      <svg class="infinity-svg" viewBox="0 0 560 390" role="presentation" aria-hidden="true">
+        <defs>
+          <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          <linearGradient id="infinityGradient" x1="0" x2="1">
+            <stop offset="0%" stop-color="#f6d696" />
+            <stop offset="48%" stop-color="#dc8d9a" />
+            <stop offset="100%" stop-color="#a9c4f1" />
+          </linearGradient>
+        </defs>
+        <path id="infinityPath" class="infinity-path" d="M82 198 C128 109 222 109 280 198 C338 287 432 287 478 198 C432 109 338 109 280 198 C222 287 128 287 82 198" />
+        <path class="infinity-echo" d="M82 198 C128 109 222 109 280 198 C338 287 432 287 478 198 C432 109 338 109 280 198 C222 287 128 287 82 198" />
+        <circle class="orbit-dot dot-one" cx="82" cy="198" r="10" />
+        <circle class="orbit-dot dot-two" cx="478" cy="198" r="8" />
+        <circle class="collision-core" cx="280" cy="198" r="8" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- Main page, unlocked after infinity. -->
+  <main id="mainStory" class="main-story" aria-hidden="true">
+    <section class="scene royal-hub" id="hub">
+      <div class="royal-orb orb-a" aria-hidden="true"></div>
+      <div class="royal-orb orb-b" aria-hidden="true"></div>
+      <div class="crown-line" aria-hidden="true"><span>✦</span><i></i><span>✦</span></div>
+      <div class="shell hub-shell">
+        <p class="eyebrow center" data-hub-item="eyebrow"><span class="tiny-star">✦</span> 24 june 2024 — still writing us</p>
+        <h2 class="display center" data-hub-item="title"><span id="heroYears">0</span> <i>Years</i></h2>
+        <p class="hub-note center" data-hub-item="note">A long story finally found its way back to <em>us.</em></p>
+
+        <div class="anniversary-count" data-hub-item="counts" aria-label="Time since 24 June 2024">
+          <article><b id="years" data-target="2" data-pad="2">00</b><span>Years</span></article>
+          <article><b id="days" data-target="730">0</b><span>Days</span></article>
+          <article><b id="hours" data-target="17520">0</b><span>Hours</span></article>
+          <article><b id="minutes" data-target="1051200">0</b><span>Minutes</span></article>
+          <article><b id="seconds" data-target="63072000">0</b><span>Seconds</span></article>
+        </div>
+
+        <button class="secret-card" id="secretCard" data-open-puzzle type="button" aria-controls="puzzleOverlay" aria-haspopup="dialog">
+          <span class="secret-top"><i>✦</i> for Lipi, with all my love <i>✦</i></span>
+          <span class="secret-title">Tap to open<br /><em>a little secret.</em></span>
+          <span class="secret-seal">L</span>
+          <span class="secret-foot">four tiny questions before the forever</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Quiz -->
+    <section class="puzzle-overlay" id="puzzleOverlay" aria-hidden="true">
+      <div class="puzzle-backdrop" id="puzzleBackdrop"></div>
+      <div class="puzzle-panel" role="dialog" aria-modal="true" aria-labelledby="puzzleTitle">
+        <button class="close-puzzle" id="closePuzzle" type="button" aria-label="Close puzzle">×</button>
+        <div class="puzzle-head">
+          <p class="eyebrow"><span class="tiny-star">✦</span> unlock the next page</p>
+          <h2 id="puzzleTitle">A tiny test<br /><i>for my favourite person.</i></h2>
+          <div class="puzzle-progress" aria-hidden="true"><span class="active"></span><span></span><span></span><span></span></div>
+        </div>
+
+        <form id="puzzleForm" novalidate>
+          <div class="quiz-step active" data-step="1">
+            <p class="question-number">01 / 04</p>
+            <h3>Who do I love the most?</h3>
+            <div class="love-options">
+              <label class="choice-card"><input type="radio" name="loveMost" value="a" /><span class="choice-label">A</span><span>You</span></label>
+              <label class="choice-card"><input type="radio" name="loveMost" value="b" /><span class="choice-label">B</span><span class="pointing">☝🏽 you</span></label>
+              <label class="choice-card image-choice"><input type="radio" name="loveMost" value="c" /><span class="choice-label">C</span><img src="https://res.cloudinary.com/dxrqlmgcz/image/upload/f_auto,q_auto/v1782210027/31d5c033-f4f5-4df8-8b26-a9f89b44bc5f_pwdmdi.jpg" alt="A favourite person" /></label>
+              <label class="choice-card"><input type="radio" name="loveMost" value="d" /><span class="choice-label">D</span><span>All of the above</span></label>
+            </div>
+          </div>
+
+          <div class="quiz-step" data-step="2">
+            <p class="question-number">02 / 04</p>
+            <h3>Who am I thinking about right now?</h3>
+            <label class="text-answer"><span>Type your answer here</span><input id="thinkingAnswer" type="text" autocomplete="off" placeholder="Her name, maybe?" /></label>
+            <p class="answer-hint" id="thinkingHint" aria-live="polite"></p>
+          </div>
+
+          <div class="quiz-step" data-step="3">
+            <p class="question-number">03 / 04</p>
+            <h3>What is your contact name saved in my phone?</h3>
+            <p class="question-note">A very important question. Choose wisely. <span aria-hidden="true">☺</span></p>
+            <div class="option-stack contact-options" role="radiogroup" aria-label="Contact name options">
+              <label class="line-choice"><input type="radio" name="contactName" value="a" /><span>A</span><b>Mousumi Monalisha</b></label>
+              <label class="line-choice"><input type="radio" name="contactName" value="b" /><span>B</span><b>Gadha</b></label>
+              <label class="line-choice"><input type="radio" name="contactName" value="c" /><span>C</span><b>Maakdi</b></label>
+              <label class="line-choice"><input type="radio" name="contactName" value="d" /><span>D</span><b>Lipi</b></label>
+            </div>
+            <p class="answer-hint" id="contactHint" aria-live="polite"></p>
+          </div>
+
+          <div class="quiz-step" data-step="4">
+            <p class="question-number">04 / 04</p>
+            <h3>When did we have our first date?</h3>
+            <label class="text-answer"><span>DD/MM/YYYY</span><input id="dateAnswer" type="text" inputmode="numeric" autocomplete="off" placeholder="Type the date here" aria-label="Enter the date of our first date" /></label>
+            <p class="answer-hint" id="dateHint" aria-live="polite"></p>
+          </div>
+
+          <div class="puzzle-actions">
+            <button id="previousQuestion" class="secondary-button" type="button" disabled>Back</button>
+            <button id="nextQuestion" class="primary-button" type="submit">Continue <span aria-hidden="true">→</span></button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <div class="locked-content" id="lockedContent" aria-hidden="true">
+      <!-- Letter -->
+      <section class="scene letter-scene" id="letter">
+        <div class="constellation-field" aria-hidden="true"></div>
+        <div class="shell letter-shell">
+          <p class="chapter-mark">01 <span>—</span> the letter</p>
+          <div class="letter-paper reveal-on-scroll">
+            <p class="letter-date">24 June, 2026</p>
+            <p class="letter-greeting">My dearest Lipi,</p>
+            <div class="letter-copy">
+              <p>Two years ago, after every wait, every silence, every almost, our story finally chose <em>us.</em></p>
+              <p>You have made ordinary things feel sacred: a late-night call, a message that arrives at the right time, a small plan, a quiet ride home. Somewhere along the way, you became more than the person I love. You became the person I want to keep choosing—when life is loud, when it is still, and when we are simply being us.</p>
+              <p>Thank you for returning to this story. Thank you for letting it become ours. I cannot promise a perfect life, but I can promise effort, laughter, honesty, a hand that reaches for yours, and a home that will always make room for you.</p>
+              <p>And, in every version of tomorrow, I hope it is still you beside me.</p>
+            </div>
+            <p class="letter-signoff">Always and always,<br /><span>Niraj</span></p>
+            <span class="wax-seal" aria-hidden="true">L</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Memory lane -->
+      <section class="scene memory-scene" id="memoryLane">
+        <div class="memory-lights" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="shell">
+          <p class="chapter-mark warm">02 <span>—</span> our memory lane</p>
+          <div class="memory-heading center">
+            <p class="eyebrow"><span class="tiny-star">✦</span> small photographs, enormous feelings</p>
+            <h2>Pieces of <i>us.</i></h2>
+            <p>Not a perfect timeline. Just the moments that stayed.</p>
+          </div>
+
+          <div class="memory-grid">
+            <figure class="memory-card card-1 reveal-card"><div class="full-photo"><img src="https://res.cloudinary.com/dxrqlmgcz/image/upload/f_auto,q_auto/v1782152340/29184555-388b-4319-9d90-50a1f7bf9f5e_pkj5ji.jpg" alt="A June 24 memory" loading="lazy" /></div><figcaption>the yes that changed everything</figcaption></figure>
+            <figure class="memory-card card-2 reveal-card"><div class="full-photo"><img src="https://res.cloudinary.com/dxrqlmgcz/image/upload/f_auto,q_auto/v1782152194/IMG_6678_e3epxq.jpg" alt="Together in Puri" loading="lazy" /></div><figcaption>us, somewhere by the sea</figcaption></figure>
+            <figure class="memory-card card-3 reveal-card"><div class="full-photo"><img src="https://res.cloudinary.com/dxrqlmgcz/image/upload/f_auto,q_auto/v1782151973/IMG_5325_cqr2z2.jpg" alt="A favourite birthday picture" loading="lazy" /></div><figcaption>the cutest little memory</figcaption></figure>
+            <figure class="memory-card card-4 reveal-card"><div class="full-photo"><img src="https://res.cloudinary.com/dxrqlmgcz/image/upload/f_auto,q_auto/v1782211354/3d83fbc2-a047-4d48-ab1a-f4209ee45a0e_b4gck3.jpg" alt="A shared memory" loading="lazy" /></div><figcaption>a moment we get to keep</figcaption></figure>
+            <figure class="memory-card card-5 reveal-card"><div class="full-photo"><img src="https://res.cloudinary.com/dxrqlmgcz/image/upload/f_auto,q_auto/v1782211354/IMG_7693_k8hg0e.heic" alt="A recent shared memory" loading="lazy" /></div><figcaption>still finding our way home</figcaption></figure>
+            <figure class="memory-card card-6 reveal-card"><div class="full-photo"><img src="https://res.cloudinary.com/dxrqlmgcz/image/upload/f_auto,q_auto/v1782211353/cf705940-f075-4378-bb84-054ef62160ad_rv6mb8.jpg" alt="A happy moment together" loading="lazy" /></div><figcaption>one more reason to smile</figcaption></figure>
+            <figure class="memory-card card-7 reveal-card"><div class="full-photo"><img src="https://res.cloudinary.com/dxrqlmgcz/image/upload/f_auto,q_auto/v1782211353/cecb12e5-1a46-4ad3-a7cc-d7fac9a0249a_gauafo.jpg" alt="A last special memory" loading="lazy" /></div><figcaption>and a thousand more to make</figcaption></figure>
+            <figure class="memory-card card-8 reveal-card"><div class="full-photo"><img src="https://res.cloudinary.com/dxrqlmgcz/image/upload/f_auto,q_auto/v1782212859/IMG_0267_wgee9m.jpg" alt="A new memory together" loading="lazy" /></div><figcaption>one more little piece of forever</figcaption></figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- One day -->
+      <section class="scene wishes-scene" id="wishes">
+        <div class="wish-stars" aria-hidden="true"></div>
+        <div class="shell wishes-shell">
+          <p class="chapter-mark">03 <span>—</span> one day</p>
+          <div class="wishes-intro center">
+            <p class="eyebrow"><span class="tiny-star">✦</span> every dream looks softer with you in it</p>
+            <h2>And then, <i>one day.</i></h2>
+          </div>
+
+          <div class="wish-list">
+            <article class="wish-card reveal-on-scroll">
+              <span class="wish-number">01</span>
+              <h3>It would be just you and me.</h3>
+              <p>No worries about the world. No fear that it will not work out. Just you, me, and all our love. <span class="emoji">🤍</span></p>
+            </article>
+            <article class="wish-card reveal-on-scroll">
+              <span class="wish-number">02</span>
+              <h3>I wish to come back home to you.</h3>
+              <p>To wrap you up in my arms, fulfil the dreams we saw for us, and make our house feel like our home. <span class="emoji">🏡</span></p>
+            </article>
+            <article class="wish-card reveal-on-scroll">
+              <span class="wish-number">03</span>
+              <h3>I wish to hold her tiny little hands.</h3>
+              <p>To treat her like a princess and you like the queen. To give you both every bit of happiness, and make all your dreams mine too. <span class="emoji">👑</span></p>
+            </article>
+            <article class="wish-card reveal-on-scroll">
+              <span class="wish-number">04</span>
+              <h3>I wish to grow old with you.</h3>
+              <p>To see our dreams come true, overcome every up and down, and still be there—right beside you. <span class="emoji">🥹</span></p>
+            </article>
+            <article class="wish-card finale-wish reveal-on-scroll">
+              <span class="wish-number">∞</span>
+              <h3>I wish for a happy ending.</h3>
+              <p>Beyond my last breath, still with you. <span class="emoji">✨</span></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <footer class="final-footer">
+        <div class="footer-stars" aria-hidden="true"></div>
+        <p>Happy two years, Lipi.</p>
+        <span>Still choosing you. Still finding home in you. <i>Always.</i></span>
+      </footer>
+    </div>
+  </main>
+
+  </div><!-- /#anniversaryApp -->
+  <script src="script.js"></script>
+</body>
+</html>
